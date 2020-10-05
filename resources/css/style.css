@@ -107,3 +107,81 @@ a:hover {
   color: hsl(303, 10%, 53%);
 }
 
+/* Tablets and desktop design */
+
+@media only screen and (min-width: 768px) {
+
+  /* Header content */
+
+  header {
+    align-items: baseline;
+    background-image: url('../images/bg-pattern-top-desktop.svg');
+    background-size: 28%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+  }
+
+  #intro {
+    width: 37%;
+  }
+
+  #ratings {
+    display: flex;
+    flex-direction: column;
+    min-width: 600px;
+  }
+
+  .review {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 450px;
+  }
+
+  #first-review {
+    align-self: flex-start;
+  }
+
+  #second-review {
+    align-self: center;
+  }
+
+  #third-review {
+    align-self: flex-end;
+  }
+
+  /* Main content */
+
+  main {
+    background-image: url('../images/bg-pattern-bottom-desktop.svg');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 1100px;
+    display: flex;
+    flex-direction: row;
+    height: 290px;
+    justify-content: space-between;
+  }
+
+  .comment {
+    max-width: 400px;
+  }
+
+  #first-comment {
+    align-self: flex-start;
+  }
+
+  #second-comment {
+    align-self: center;
+  }
+
+  #third-comment {
+    align-self: flex-end;
+  }
+}
