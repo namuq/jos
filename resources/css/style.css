@@ -1,0 +1,109 @@
+/* General mobile rules */
+
+html {
+  box-sizing: border-box;
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
+}
+
+body {
+  margin: 0px auto;
+  max-width: 1440px;
+  width: 90vw;
+}
+
+/* Header content */
+
+header {
+  background-image: url('../images/bg-pattern-top-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: hsl(303, 10%, 53%);
+  text-align: center;
+}
+
+h1 {
+  color: hsl(300, 43%, 22%);
+  font-size: 2rem;
+  font-weight: 700;
+  padding-top: 70px;
+  margin-bottom: 20px;
+}
+
+.intro {
+  font-weight: 500;
+}
+
+.first {
+  margin-bottom: 40px;
+}
+
+#ratings {
+  margin-bottom: 40px;
+}
+
+.review {
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  color: hsl(300, 43%, 22%);
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  justify-content: space-between;
+  line-height: 2rem;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+/* Main content */
+
+main {
+  color: white;
+}
+
+.comment {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 30px;
+}
+
+.comment img {
+  border-radius: 100%;
+  display: block;
+  margin-right: 20px;
+  width: 40px;
+}
+
+.comment figure {
+  align-items: center;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+em {
+  color: hsl(333, 80%, 67%);
+  font-style: normal;
+}
+
+/* Footer content */
+
+footer, a {
+  color: hsl(303, 10%, 53%);
+  font-size: 0.8rem;
+  margin-top: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: hsl(303, 10%, 53%);
+}
+
