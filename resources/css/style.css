@@ -109,7 +109,7 @@ a:hover {
 
 /* Tablets design */
 
-@media only screen and (min-width: 768px) and (max-width: 1529px) {
+@media only screen and (min-width: 768px) and (max-width: 1439px) {
 
   body {
     background-image: url('../images/bg-pattern-bottom-desktop.svg');
@@ -198,7 +198,7 @@ a:hover {
 
 /* Large desktop design */
 
-@media only screen and (min-width: 1530px) {
+@media only screen and (min-width: 1440px) {
 
   body {
     background-image: url('../images/bg-pattern-bottom-desktop.svg');
@@ -268,18 +268,21 @@ a:hover {
   }
 
   .comment {
-    max-width: 400px;
+    max-width: 360px;
   }
 
   #first-comment {
     align-self: flex-start;
+    flex-grow: 1;
   }
 
   #second-comment {
     align-self: center;
+    flex-grow: 1;
   }
 
   #third-comment {
     align-self: flex-end;
+    flex-grow: 1;
   }
 }
