@@ -66,7 +66,7 @@ main {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-bottom: 20px;
   padding: 30px;
 }
@@ -109,7 +109,7 @@ a:hover {
 
 /* Tablets design */
 
-@media only screen and (min-width: 768px) and (max-width: 1439px) {
+@media only screen and (min-width: 768px) and (max-width: 1379px) {
 
   body {
     background-image: url('../images/bg-pattern-bottom-desktop.svg');
@@ -180,6 +180,7 @@ a:hover {
   }
 
   .comment {
+    height: 150px;
     max-width: 400px;
   }
 
@@ -198,7 +199,7 @@ a:hover {
 
 /* Large desktop design */
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1380px) {
 
   body {
     background-image: url('../images/bg-pattern-bottom-desktop.svg');
@@ -268,7 +269,8 @@ a:hover {
   }
 
   .comment {
-    max-width: 360px;
+    height: 180px;
+    max-width: 330px;
   }
 
   #first-comment {
