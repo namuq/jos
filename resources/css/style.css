@@ -111,12 +111,20 @@ a:hover {
 
 @media only screen and (min-width: 768px) and (max-width: 1529px) {
 
+  body {
+    background-image: url('../images/bg-pattern-bottom-desktop.svg');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 70% 80%;
+  }
+
   /* Header content */
 
   header {
     align-items: baseline;
-    background-image: url('../images/bg-pattern-top-desktop.svg');
-    background-size: 28%;
+    background-image: url('../images/bg-pattern-top-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: 50%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -164,10 +172,6 @@ a:hover {
   /* Main content */
 
   main {
-    background-image: url('../images/bg-pattern-bottom-desktop.svg');
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-size: 1100px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -195,6 +199,16 @@ a:hover {
 /* Large desktop design */
 
 @media only screen and (min-width: 1530px) {
+
+  body {
+    background-image: url('../images/bg-pattern-bottom-desktop.svg');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 70% 80%;
+  }
+
+  /* Header content */
+
   header {
     align-items: baseline;
     background-image: url('../images/bg-pattern-top-desktop.svg');
@@ -246,10 +260,6 @@ a:hover {
   /* Main content */
 
   main {
-    background-image: url('../images/bg-pattern-bottom-desktop.svg');
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-size: 1100px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
